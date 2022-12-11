@@ -1,0 +1,171 @@
+html {
+  background-color: #6b5b7a;
+  color: #ffffff;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Martian Mono", monospace;
+  font-size: 1.6rem;
+}
+
+footer,
+section {
+  padding: 5rem;
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+footer {
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+strong a {
+  color: #FFA500;
+  text-decoration: none;
+}
+
+.items-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  padding: 2rem 4rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #FFFFFF;
+  color: black;
+  font-size: 1.9rem;
+  transition: 0.4s;
+}
+
+.main {
+  margin-bottom: 5rem;
+}
+
+.perfil {
+  border-radius: 100%;
+  height: 24rem;
+  width: 24rem;
+  margin-right: 10rem;
+}
+
+.main-title {
+  font-size: 4rem;
+}
+
+.main-description {
+  margin: 4rem 0;
+}
+
+.button {
+  border-radius: 0.2rem;
+  background-color: #0039cc;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.about {
+  background-color: #6c698d;
+}
+
+.project {
+  margin: 4rem 0;
+}
+
+.project-image {
+  margin-right: 2.5rem;
+  border-radius: 1.2rem;
+}
+
+.project-image-doar {
+  width: 24rem;
+  height: 21rem;
+}
+
+.project-image-controle {
+  width: 24rem;
+  height: 24rem;
+}
+
+.project-title {
+  font-size: 3rem;
+}
+
+.link-projects:hover {
+  color: #ff4500;
+  font-size: 1.7rem;
+  transition: 0.4s;
+}
+
+.footer-social {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-social-images {
+  width: 6rem;
+  height: 6rem;
+}
+
+@media (max-width: 1200px) {
+  .items-center {
+    flex-direction: column;
+  }
+  footer,
+  section {
+    padding: 5rem;
+  }
+  .main {
+    margin-bottom: 2rem;
+  }
+  .main-title {
+    font-size: 3rem;
+  }
+
+  .project-image-doar {
+    width: 38rem;
+    height: auto;
+  }
+
+  .project-image-controle {
+    width: 38rem;
+    height: auto;
+  }
+
+  .nav-links {
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .nav {
+    padding: 1rem 2rem;
+  }
+
+  .perfil {
+    margin-right: 0;
+    width: 18rem;
+    height: 18rem;
+  }
+}
